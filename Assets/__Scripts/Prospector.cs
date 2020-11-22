@@ -330,7 +330,10 @@ public class Prospector : MonoBehaviour
         }
 
         //SceneManager.LoadScene("__Prospector_Scene_0");
-        Invoke("ReloadLevel", reloadDelay);
+        Invoke
+            
+            
+            ("ReloadLevel", reloadDelay);
     }
 
     void ReloadLevel()
