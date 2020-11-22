@@ -18,10 +18,10 @@ public class CardProspector : Card
     public int layoutID;
     public SlotDef slotDef;
 
-    //override public void onmouseupasbutton()
-    //{
-    //    prospector.s.cardclicked(this);
-    //    base.onmouseupasbutton();
-    //}
+    override public void OnMouseUpAsButton()
+    {
+        Prospector.S.CardClicked(this);
+        base.OnMouseUpAsButton();
+    }
 
 }
